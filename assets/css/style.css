@@ -177,6 +177,17 @@ body {
 
 /* --------- Media queries */
 
+@media (max-width: 940px) {
+    .game-area {
+        height: 100%;
+        max-height: 100%;
+    }
+
+    .btn--big {
+        margin: 0 30px 40px 0;
+    }
+}
+
 @media (max-width: 414px) {
     .controls-area {
         width: 100%;
